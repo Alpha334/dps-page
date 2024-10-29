@@ -88,7 +88,12 @@ body{
 
 .vision-card, .mission-card{
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.35);
+    height: 720px;
 
+}
+
+.card{
+    border-radius: 20px;
 }
 .card-content{
     font-size: large;
@@ -96,8 +101,9 @@ body{
 
 .under-bar{
     width: 65%;
-    height: 0px;
+    height: 5px;
     border: 1px solid #FFCA2C;
+    background-color:#FFCA2C ;
     margin: auto;
 }
 
@@ -113,8 +119,16 @@ body{
     font-size: 20px;
 }
 
-.portfolio .card{
+.activities .card{
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.activities-under{
+    width: 65%;
+    height: 5px;
+    border: 1px solid #212529;
+    margin: auto;
+    background-color: #212529;
 }
 
 
