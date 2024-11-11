@@ -63,7 +63,8 @@ body{
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
-    padding: auto;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .navbar-light .navbar-brand{
