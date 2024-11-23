@@ -142,6 +142,10 @@ body{
     box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 
+.location{
+    margin: auto;
+}
+
 /* respoonsive css */
 
 @media only screen and (min-width:768px) and (max-width:991px){
@@ -150,6 +154,10 @@ body{
     }
     .carousel-caption p{
         width: 100%;
+    }
+
+    .card-body img{
+        height: 10px;
     }
 }
 
@@ -173,4 +181,6 @@ body{
         line-height: 1.6;
         font-size: 12px;
     }
+
+ 
 }
