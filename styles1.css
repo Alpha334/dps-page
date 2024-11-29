@@ -193,6 +193,9 @@ body{
     .navbar div a .name{
         font-size: var(--font-size-vsm);
     }
+
+    .navbar div a .logo{
+    padding-right: 25px;
 }
 
 @media screen and (max-width:675px) {
