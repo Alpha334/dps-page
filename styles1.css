@@ -189,7 +189,7 @@ body{
 
 /* respoonsive css */
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:730px) {
     .navbar div a .name{
         font-size: var(--font-size-sm);
     }
