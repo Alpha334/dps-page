@@ -211,8 +211,11 @@ body{
     }
 }
 
-@media screen and (max-width:451) {
+@media screen and (max-width:460px) {
+    .navbar div a .name{
+        font-size: 15px;
+    }
     .navbar div a img{
-        visibility: hidden;
+        
     }
 }
