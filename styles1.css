@@ -189,6 +189,12 @@ body{
 
 /* respoonsive css */
 
+@media screen and (max-width:720px) {
+    .navbar div a .name{
+        font-size: var(--font-size-sm);
+    }
+}
+
 @media screen and (max-width:675px) {
     .navbar div a .name{
         font-size: var(--font-size-sm);
@@ -202,5 +208,11 @@ body{
 
     .navbar div a img{
         height: 30px;
+    }
+}
+
+@media screen and (max-width:451) {
+    .navbar div a img{
+        visibility: hidden;
     }
 }
