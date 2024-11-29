@@ -195,7 +195,7 @@ body{
     }
 
     .navbar div a .logo{
-    padding-right: 25px;
+    padding-right: 5px;
 }
 
 @media screen and (max-width:675px) {
