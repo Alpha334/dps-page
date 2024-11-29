@@ -189,13 +189,10 @@ body{
 
 /* respoonsive css */
 
-@media screen and (max-width:730px) {
+@media screen and (max-width:720px) {
     .navbar div a .name{
-        font-size: var(--font-size-vsm);
+        font-size: var(--font-size-sm);
     }
-
-    .navbar div a .logo{
-    padding-right: 5px;
 }
 
 @media screen and (max-width:675px) {
