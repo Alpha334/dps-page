@@ -191,7 +191,7 @@ body{
 
 @media screen and (max-width:730px) {
     .navbar div a .name{
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-vsm);
     }
 }
 
