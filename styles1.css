@@ -193,6 +193,11 @@ body{
     .navbar div a .name{
         font-size: var(--font-size-sm);
     }
+    .carousel-item{
+        max-height: 300px;
+        height: auto;
+        overflow: none;
+    }
 }
 
 @media screen and (max-width:675px) {
