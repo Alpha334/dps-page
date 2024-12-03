@@ -196,7 +196,7 @@ body{
     .carousel-item{
         max-height: 700px;
         width: auto;
-        overflow: none;
+/*         overflow: none; */
     }
 }
 
