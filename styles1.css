@@ -80,7 +80,7 @@ body{
 
 .navbar{
     padding-left: 50px;
-    height: 70px;
+    height: 100px;
 }
 
 .navbar a{
@@ -121,37 +121,6 @@ body{
 /* .navbar-light .navbar-nav .navbar-link{
     color: black;
 } */
-
-.carousel-item {
-    max-height: 400px; /* Adjust for mobile view */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-}
-
-.carousel-item img {
-    width: 100%; /* Make image responsive */
-    height: auto;
-    object-fit: cover; /* Maintain aspect ratio and fill container */
-}
-
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-    padding: 10px;
-    border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-    .carousel-caption h5 {
-        font-size: 1.2rem; /* Smaller title for mobile */
-    }
-
-    .carousel-caption p {
-        font-size: 0.9rem; /* Smaller body text for mobile */
-    }
-}
 
 .vision, .mission, .service-text{
     font-size: var(--card-info-fsz);
@@ -220,14 +189,14 @@ body{
 
 /* respoonsive css */
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:768px) {
     .navbar div a .name{
         font-size: var(--font-size-sm);
     }
+
     .carousel-item{
-        max-height: 700px;
-        width: auto;
-/*         overflow: none; */
+        max-height: 300px;
+        height: auto;
     }
 }
 
