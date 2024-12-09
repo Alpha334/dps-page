@@ -122,6 +122,8 @@ body{
     color: black;
 } */
 
+
+
 .vision, .mission, .service-text{
     font-size: var(--card-info-fsz);
 }
@@ -130,18 +132,18 @@ body{
     padding-bottom: 27px;
 } */
 
-.mission-card{
-    height: 632.06px
+ .mission-card{
+    height: 230.510px
 }
 
-.vision-card, .mission-card{
+/* .vision-card, .mission-card{
     box-shadow: var(--box-shadow);
     height: 664.51px;
 
-}
+}  */
 
 .achievements-card{
-    height: 260.1px;
+    /* height: 260.1px; */
     box-shadow: var(--box-shadow)
 }
 
@@ -187,6 +189,10 @@ body{
    float: right;
 }
 
+p{
+    font-size: 18px;
+}
+
 /* respoonsive css */
 
 @media screen and (max-width:768px) {
@@ -194,10 +200,10 @@ body{
         font-size: var(--font-size-sm);
     }
 
-   /* .carousel-item{
+    .carousel-item{
         max-height: 300px;
         height: auto;
-    } */
+    }
 }
 
 @media screen and (max-width:675px) {
