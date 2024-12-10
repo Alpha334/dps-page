@@ -133,17 +133,17 @@ body{
 } */
 
  .mission-card{
-    height: 230.510px
+    height: 230.510px;
 }
 
-/* .vision-card, .mission-card{
+.vision-card, .mission-card{
     box-shadow: var(--box-shadow);
-    height: 664.51px;
+    height: 260px;
 
-}  */
+} 
 
 .achievements-card{
-    /* height: 260.1px; */
+    height: 260.1px;
     box-shadow: var(--box-shadow)
 }
 
@@ -176,7 +176,7 @@ body{
 
 .activities .card{
     box-shadow: var(--box-shadow);
-    height: 575.1px;
+    height: 530px;
     
 }
 
@@ -200,15 +200,21 @@ p{
         font-size: var(--font-size-sm);
     }
 
-    .carousel-item{
-        max-height: 300px;
-        height: auto;
-    }
+    
 }
 
 @media screen and (max-width:675px) {
     .navbar div a .name{
         font-size: var(--font-size-sm);
+    }
+    .carousel-caption{
+        bottom: 150px;
+    }
+
+   
+
+    .carousel-caption p{
+        font-size: 16px;
     }
 }
 
@@ -226,7 +232,22 @@ p{
     .navbar div a .name{
         font-size: 15px;
     }
-    .navbar div a img{
-        
+    .carousel-item{
+        max-width: 460px;
+        height: auto;
+    }
+
+    .carousel-caption{
+        bottom: 120px;
+    }
+}
+
+@media screen and (max-width: 371px) {
+    .navbar-brand{
+        margin-left: -30px;
+    }
+
+    .navbar div a .name{
+        font-size: 10px;
     }
 }
