@@ -113,6 +113,8 @@ body{
     font-weight: 700;
 }
 
+
+
 /* .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover{
     color: black;
@@ -195,43 +197,19 @@ p{
 
 /* respoonsive css */
 
-@media screen and (max-width:768px) {
-    .navbar div a .name{
-        font-size: var(--font-size-sm);
-    }
-
-    
-}
 
 @media screen and (max-width:675px) {
-    .navbar div a .name{
-        font-size: var(--font-size-sm);
-    }
     .carousel-caption{
         bottom: 150px;
     }
-
-   
+  
 
     .carousel-caption p{
         font-size: 16px;
     }
 }
 
-@media screen and (max-width:557px) {
-    .navbar div a .name{
-        font-size: var(--font-size-vsm);
-    }
-
-    .navbar div a img{
-        height: 30px;
-    }
-}
-
 @media screen and (max-width:460px) {
-    .navbar div a .name{
-        font-size: 15px;
-    }
     .carousel-item{
         max-width: 460px;
         height: auto;
@@ -239,15 +217,5 @@ p{
 
     .carousel-caption{
         bottom: 120px;
-    }
-}
-
-@media screen and (max-width: 371px) {
-    .navbar-brand{
-        margin-left: -30px;
-    }
-
-    .navbar div a .name{
-        font-size: 10px;
     }
 }
