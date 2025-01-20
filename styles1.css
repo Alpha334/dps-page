@@ -51,7 +51,7 @@ nav{
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
-    padding: 60px 30px;
+    padding: 60px 30px 200px 30px;
 }
 
 .intro-header{
