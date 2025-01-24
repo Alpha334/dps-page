@@ -1,7 +1,5 @@
 :root{
-    --color-yellow: rgb(239, 204, 5);
-
-    --
+    --color-yellow: rgb(253, 200, 6);
 }
 
 *{
@@ -10,7 +8,10 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
-    /* color: #00030e; */
+}
+
+body{
+    background-color: rgba(253, 199, 6, 0.086);
 }
 
 /* navbar */
@@ -21,24 +22,53 @@ nav{
     display: flex;
     align-items: center;
     padding: 10px 30px;
+    position: fixed;
 }
 
 .badge{
     height: 40px;
-    margin-right: 20px;
+    /* margin-right: px; */
 }
 
 .brand{
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bolder;
 }
+
+.brand:hover, .badge:hover, .links li:hover{
+    cursor: pointer;
+}
+
+.brand:hover, .links li:hover{
+    color: white;
+    transition: .1s ease-in;
+}
+
+.links li:hover{
+    text-decoration: underline;
+    transition: underline 7s ease-in-out;
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 80px;
+    
+}
+
+.links li{
+    margin-right: 30px;
+    font-weight: bold;
+}
+
 
 /* intro */
 .intro-pic{
     width: 100%;
     height: 100vh;
-    background: url(photo_2024-11-22_14-32-50.jpg);
-    background-position: center;
+    background: url(DPS\ \ badge.png);
+    background-position: bottom;
     background-repeat: no-repeat;
     color: white;
 }
@@ -46,12 +76,13 @@ nav{
 .overlay{
     width: inherit;
     height: inherit;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.6);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
-    padding: 60px 30px 200px 30px;
+    padding: 60px 30px;
+    padding-bottom: 180px;
 }
 
 .intro-header{
@@ -65,6 +96,8 @@ nav{
 
 .intro-text{
     margin-top: 20px;
+    font-size: 20px;
+
 }
 
 /* Vision and mission */
@@ -112,12 +145,12 @@ section{
 
 
 .card{
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     margin: 15px;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
     margin-bottom: 30px;
-    width: 75%;
+    width: 80%;
     min-width: 300px;
     padding: 10px 35px;
     box-shadow: 6px 5px 22px rgb(142, 141, 141);
@@ -141,14 +174,14 @@ section{
 
 .card--header{
     text-align: center;
-    margin: 20px 0;
     font-size: 22px;
+    margin-top: 10px;
 }
 
 .card--info{
     text-align: center;
-    font-size: 18px;
-    margin-top: 1.8rem;
+    font-size: 20px;
+    margin-top: 0.7rem;
 }
 
 .achievement--card{
@@ -173,7 +206,6 @@ section{
 
 .location{
     width: 300px;
-    float: left;
     margin-left: -35px;
 }
 
@@ -188,11 +220,13 @@ section{
     border-radius: 5px;
     text-decoration: none;
     color: black;
-
+    margin-bottom: 30px;
+    transition: 0.6ss;
 }
 
 .bi a:hover{
     color: rgb(221, 2, 2);
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 760px) {
