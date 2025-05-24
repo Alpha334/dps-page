@@ -1,0 +1,688 @@
+/* importing text from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --primary-color: #131312;
+    --secondary-color: #e69f07;
+    --accent-color: #525252;
+    --text-color: rgb(43, 41, 41);
+    --background-color: rgba(247, 247, 244, 0.919);
+    --link-color: rgb(187, 185, 185)
+}
+/* Global Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pt sans, system-ui;
+    color: var(--text-color);
+    transition: active .3s ease-in;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem;   
+}
+
+p{
+    font-size: 18px;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+/* .card{
+    padding: 0 20px 20px 20px;
+    border: 2px solid va.r(--secondary-color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+} */
+
+.section--info{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+/* navbar styles */
+header{
+    background: var(--primary-color);
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+.nav-logo{
+    display: flex;
+    align-items: end;
+}
+
+.nav-logo img{
+    margin: 0 20px 0 0;
+    width: 80px;
+    height: 80px;
+}
+
+.nav-logo p{
+    color: var(--secondary-color);
+    font-style: italic;
+    
+}
+
+.nav-logo:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    padding-right: 4rem;
+}
+
+/* on about us page, about is highlighted */
+.main--links :nth-of-type(2) a, .main--links :nth-of-type(3) a{
+    color: var(--accent-color);
+}
+
+.nav-link{
+    color: var(--link-color);
+    text-decoration: none;
+    margin: 20px;
+    padding: 0.5rem .8rem;
+    border-radius: 1.2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* background-color: var(--background-color); */
+}
+
+.nav-link:active{
+    transition: all 0.3s ease-in-out;   
+    scroll-behavior: smooth;
+}
+
+.nav-link:hover{
+    background: var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+    color: whitesmoke;
+}
+
+.main--links{
+    display: flex;
+}
+
+.page--links{
+    margin-bottom: -15px;
+}
+.page--links ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.page--links ul li a {
+    padding: 10px 10px;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: light;
+    font-style: italic;
+}
+
+.page--links ul li a:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}
+
+/* hero section styles */
+section{
+    width: 100%;
+    height: 100%;
+    padding: 0rem 0rem;
+    margin: 0 auto;
+}
+
+.welcome--section{
+    height: 100vh;
+    font-family: Bebas Neue;
+}
+
+.welcome--picture{
+width: 100%;
+height: 100vh;
+}
+
+.welcome--picture img{
+    width: inherit;
+    height: 100vh;
+}
+
+/* .color--overlay{
+    width: inherit;
+    height: 100vh;
+    position: absolute;
+    bottom: 0; 
+    background-color: #2220204b;
+    backdrop-filter: blur(2px);
+} */
+
+.welcome--text{
+    width: 100%;
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+.welcome--text p span{
+    font-family: Bebas Neue;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* background: rgba(0, 0, 0, 0.5); */
+    display: block;
+}
+
+/* .welcome--text h1 span{
+    color: var(--secondary-color);
+    font-size: 3rem;
+    text-transform: uppercase; */
+    
+/* } */
+
+.welcome--text p{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--secondary-color);
+    margin-top: 1rem;
+    width: 800px;
+    text-align: center;
+    font-weight: 800;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-family: Bebas Neue;
+}
+
+/* styles for proprietor info */
+.proprietor{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5rem 10rem;
+    gap: 10rem;
+}
+
+.proprietor .picture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* border: 2px solid var(--secondary-color); */
+}
+
+.proprietor .picture img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.proprietor .picture img:hover{
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}
+
+.proprietor .picture p{
+    font-family: Bebas Neue;
+    font-weight: normal;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.proprietor .info{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* about section */
+
+.about--section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mission--container, .vision--container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 2rem;
+}
+
+.vision--card, .mission--card{
+    width: 400px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.vision--card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    /* box-shadow: 0 0 10px rgba(20, 20, 20, 0.896); */
+    height: fit-content;
+    font-size: 1.2rem;
+    
+}
+
+.mission--card:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    font-size: 1.2rem;
+}
+
+.mission--title, .vision--title{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    /* background: rgba(0, 0, 0, 0.331); */
+    text-decoration: underline;
+}
+
+.vision--description, .mission--description{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+/* News section styles*/
+.news--section{
+    padding: 15px;
+    background-color: #fff;
+    columns: var(--primary-color);
+}
+
+.news--section--header{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    color: #2e2d2d;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+    grid-template-rows: auto auto auto;
+    gap: 1rem;
+    margin-top: 5rem;
+    width: 80%;
+    margin-inline: auto;
+}
+
+.news-box{
+    border: 1px solid var(--secondary-color);
+    padding: 2rem;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+    text-align: center;
+}
+
+.news-box:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+/* specifications for text overflow of each card */
+
+/* .card1:hover{
+height: 600px;
+width: 600px;
+margin-left: 10rem;
+}
+
+.card2:hover{
+    height: 600px;
+    width: 600px;
+    margin-left: 10rem;
+}
+
+.card3:hover{
+    height: 600px;
+    width: 600px;
+    margin-left: 10rem;
+}
+
+.card4:hover{
+    height: 600px;
+    width: 600px;
+    margin-left: 10rem;
+}
+
+.card5:hover{
+    height: 600px;
+    width: 600px;
+    margin-left: 10rem;
+} */
+
+
+/* Staff section styles */
+.staff--section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.staff h2{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+
+.staff--list{
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    width: 80%;
+    margin-left: 10%;
+    /* padding-left: 6rem; */
+    margin-inline: auto;
+}
+
+.staff--card{
+    width: 150px;
+    max-height:300px;
+    margin: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 20px ; */
+    padding: 20px;
+    background-color: white;
+}
+
+.staff--card img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.staff--name{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: var(--primary-color);
+}
+
+.staff--info{
+    /* overflow: scroll; */
+    font-style: italic;
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+/* Contact Section */
+section .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+section .contact h3{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact--container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.com{
+    margin-bottom: 10px;
+}
+
+.com a{
+padding: 10px 15px;
+border-radius: 10px;
+}
+
+.com a:hover{
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-weight: bolder;
+}
+
+
+/* optimising for phone screen */
+@media screen and (max-width:600px) {
+    header{
+        padding: 1rem 1rem;
+        /* position: sti; */
+    }
+
+    .navbar{
+        width: 100vw;
+    }
+
+    .nav-item a{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .nav-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nav-logo img{
+        height: 60px;
+        width: auto;
+    }
+
+    .nav-logo p{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .welcome--picture img{
+        height: 800px
+    }
+
+    .color--overlay{
+        height: 810px;
+    }
+
+    
+
+    .welcome--text p span{
+        font-size: 1.5rem;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        /* background: rgba(0, 0, 0, 0.5); */
+        display: block;
+        padding-bottom: 30px;
+    }
+
+    .welcome--text p{
+        width: 100%;
+        font-size: 14px;
+        position: inherit;
+        bottom: 100px;
+        font-weight: bold;
+        font-style: italic;
+        background: rgba(0, 0, 0, 0.6);
+    }
+    
+    .proprietor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -100px;
+        
+    }
+
+    .proprietor .picture img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .proprietor .picture p{
+        margin-bottom: -150px;
+        font-size: 16px;
+    }
+
+    .proprietor .info{
+        font-size: 14px;
+        width: 300px;
+        text-align: justify;
+    }
+
+    .vision--container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vision--card, .mission--card{
+        width: 300px;
+        height: fit-content;
+        border: none;
+        /* box-shadow: none; */
+    }
+
+    
+    .vision--card:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+        /* box-shadow: 0 0 10px rgba(20, 20, 20, 0.896); */
+        /* height: 295px; */
+        
+    }
+    .mission--card:hover{
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+        /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+        /* height: 195px; */
+        font-size: 1.2rem;
+    }
+
+    .mission--title, .vision--title{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .vision--description, .mission--description{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+     /* news */
+    .news--section{
+        width: 500px;
+    }
+
+    .news--container{
+        width: 450px;
+    }
+
+
+    /* staff */
+    .staff--section{
+        margin-top: -50px;
+    }
+
+    .contact--container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .staff--card{
+        width: 150px;
+        height: 200px;
+        max-height: 300px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .staff--list{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .staff--card img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .staff--info{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }    
+}
