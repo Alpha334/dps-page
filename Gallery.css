@@ -1,0 +1,71 @@
+
+/* on about us page, about is highlighted */
+.main--links :nth-of-type(1) a, .main--links :nth-of-type(2) a{
+    color: var(--accent-color);
+}
+
+.main--links :nth-of-type(3) a{
+    color: var(--link-color);
+}
+
+
+.gallery--section{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top--content{
+    text-align: center;
+    background-color: var(--accent-color);
+    padding-bottom: 20px;
+    margin-bottom: 2rem;
+}
+
+.top--content h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+}
+
+
+.top--content p{
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.gallery{
+    padding: 0 20px 0;
+}
+
+.picture--container{
+    padding-left: 5%;
+}
+.general--pictures, .facilities--pictures, .activities--pictures{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(5, auto);
+    gap: 1rem;
+    /* padding-left: 5%; */
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img:hover{
+    transform: scale(1.05);
+    transition: transform .3s ease-in-out;
+}
+
+h3{
+    text-align: center;
+    margin: 1rem 5%;
+    /* background-color: var(--accent-color); */
+    padding: 0.7em;
+    color: var(--secondary-color);
+}

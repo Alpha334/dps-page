@@ -1,0 +1,228 @@
+/* on about us page, about is highlighted */
+.main--links :nth-of-type(1) a, .main--links :nth-of-type(3) a{
+    color: var(--accent-color);
+}
+
+.main--links :nth-of-type(2) a{
+    color: var(--link-color);
+}
+
+.welcome--picture{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+/* History section */
+.history--section{
+    width: 80%;
+}
+
+/* styles fro achievements section */
+
+/* test */
+        
+
+        
+
+        img{
+            display: block;
+            width: 100%;
+        }
+
+        .achievement--container{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(350px, 1fr));
+            grid-template-rows: auto auto auto;
+            gap: 1rem;
+            margin-top: 5rem;
+            width: 80%;
+            margin-inline: auto;
+        }
+
+        .box{
+            border: 1px solid var(--secondary-color);
+            padding: 2rem;
+            border-radius: 20px;
+            display: grid;
+            grid-template-rows: subgrid;
+            grid-row: span 3;
+            text-align: center;
+        }
+/* test */
+
+/* styles for facilities section */
+
+.facilities--section{
+    padding: auto 10%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.facilities--section img{
+    height: 600px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.facility{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.facility p{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+
+/* styles for activity section */
+
+.activities--section{
+    margin: 0;
+    padding: 0rem 0rem;
+    /* background: url(two.jpg); */
+    background-size: contain;
+    backdrop-filter: blur;
+}
+
+.achievement--section p{
+    text-align: center;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.517);
+    backdrop-filter: blu r(10px);
+    -webkit-backdrop-filter: blur(10px);
+    margin: 0;
+    
+}
+
+.card img{
+    width: 300px;
+    padding-top: 20px;
+}
+
+.activities--section p{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.activities--container{
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top, .bottom{
+    display: flex;
+}
+
+.three{
+    justify-self: start;
+    align-items: end;
+}
+
+
+
+.activity{
+    border: 2px solid var(--secondary-color);
+    border-radius: 20px;
+    margin: 15px 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activity:hover{
+    transform: scale(1.05);
+    transition: all .3s ease-in-out;
+}
+
+.activity img{
+    width: 300px;
+    border-radius: 6px;
+}
+
+.activity h3{
+    margin: 10px;
+}
+
+.activity p{
+    width: 250px;
+    line-height: 1.3;
+    text-align: justify;
+    font-style: normal;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    /* achievements */
+    .achievements--container{
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .card{
+        width: 80%;
+        height: fit-content;
+        padding: 5%;
+        margin: 0 auto;
+    }
+
+    .card img{
+        width: 100%;
+        height: 100%;
+        border-radius: 2%;
+    }
+    .card p{
+        width: inherit;
+    }
+
+    /* facilities */
+
+    .facilities--section{
+        padding: 2rem;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .facilities--section img{
+        width: 100%;
+        height: auto;
+    }
+
+    .facility{
+        padding: 5%;
+    }
+    
+    .facility p{
+        font-size: 1.2rem;
+        font-weight: bolder;
+        margin-bottom: 25px;
+    }
+
+    /* activities */
+    .activities--section p{
+        padding: 0 5%;
+    }
+    
+    .top, .bottom{
+        flex-direction: column;
+    }    
+
+    .activity{
+        margin-bottom: 30px;
+    }
+}
