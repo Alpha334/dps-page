@@ -524,9 +524,15 @@ border-radius: 10px;
         width: 100vw;
     }
 
+    .main--links{
+        gap: 0.8rem;
+    }
+
     .nav-item a{
         font-size: 12px;
         font-weight: bold;
+        padding: 5px;
+        margin: 0;
     }
 
     .nav-logo{
@@ -543,6 +549,11 @@ border-radius: 10px;
     .nav-logo p{
         font-size: 12px;
         margin-top: 10px;
+    }
+
+    .page--links ul li a{
+        padding: 5px 10px;
+        font-size: 12px;
     }
 
     .welcome--picture img{
