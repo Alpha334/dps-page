@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Detlof Preparatory School</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="School badge.png" alt="School Badge" style="height: 40px; width: auto; margin-right: 10px;">
+        <span class="fw-bold">Detlof School</span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about"><i class="bi bi-person-lines-fill"></i> About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#subjects"><i class="bi bi-book-half"></i> Subjects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#notices"><i class="bi bi-megaphone-fill"></i> Notices</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events"><i class="bi bi-calendar-event-fill"></i> Events</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#highlights">
+              <i class="bi bi-stars me-1"></i> Highlights
+            </a>
+          </li>
+          
+          <li class="nav-item"><a class="nav-link" href="#gallery"><i class="bi bi-image-fill"></i> Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#admissions"><i class="bi bi-clipboard-check-fill"></i> Admissions</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact"><i class="bi bi-telephone-fill"></i> Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero position-relative text-white text-center d-flex align-items-center justify-content-center" style="min-height: 80vh;">
+    <div class="position-absolute w-100 h-100 hero-pic" ></div>
+    <div class="position-absolute w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5); z-index: 2;"></div>
+    <div class="container position-relative" style="z-index: 3;">
+      <h1 class="display-4 fw-bold">Welcome to Detlof Preparatory School</h1>
+      <p class="lead">Raising future leaders through excellence and discipline</p>
+      <a href="#admissions" class="btn btn-warning px-4 py-2 rounded-pill fw-bold mt-3">Enroll Now</a>
+    </div>
+  </section>
+  
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-[#fdfdfd]">
+    <div class="container">
+      <h2 class="text-center mb-4 fw-bold text-warning">About Us</h2>
+      <div class="row g-4 justify-content-center">
+        
+        <!-- Vision Card -->
+        <div class="col-md-5">
+          <div class="card shadow rounded-4 p-3 h-100 border-0 bg-white">
+            <div class="card-body text-center">
+              <div class="mb-3 fs-1 text-warning">
+                👁️
+              </div>
+              <h5 class="card-title fw-bold">Our Vision</h5>
+              <p class="card-text">
+                To provide a nurturing and inclusive learning environment.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Mission Card -->
+        <div class="col-md-5">
+          <div class="card shadow rounded-4 p-3 h-100 border-0 bg-white">
+            <div class="card-body text-center">
+              <div class="mb-3 fs-1 text-warning">
+                🎓
+              </div>
+              <h5 class="card-title fw-bold">Our Mission</h5>
+              <p class="card-text">
+                Detlof Seeks to empower its learners to become lifelong students, critical thinkers, and compassionate individuals who contribute to and make a difference in the world.
+              </p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Subjects Section -->
+<section class="py-5 bg-light" id="subjects">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="text-primary">Subjects Offered</h2>
+        <p class="lead">We help students explore and grow in all areas of learning.</p>
+      </div>
+      
+      <div class="row g-4">
+        <!-- Math -->
+        <div class="col-md-4">
+          <div class="card text-center h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-calculator-fill display-4 text-warning mb-3"></i>
+              <h5 class="card-title">Mathematics</h5>
+              <p class="card-text">We build strong problem-solving skills and numerical confidence.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Science -->
+        <div class="col-md-4">
+            <div class="card text-center h-100 shadow-sm">
+              <div class="card-body">
+                  <i class="fas fa-flask display-4 text-success mb-3"></i>
+                <h5 class="card-title">Science</h5>
+                <p class="card-text">Hands-on experiments and discoveries make science exciting!</p>
+              </div>
+            </div>
+          </div>
+        
+        <!-- English -->
+        <div class="col-md-4">
+          <div class="card text-center h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-book-fill display-4 text-primary mb-3"></i>
+              <h5 class="card-title">English</h5>
+              <p class="card-text">We build reading, writing, and communication skills from early on.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Social Studies -->
+        <div class="col-md-4">
+          <div class="card text-center h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-globe-europe-africa display-4 text-info mb-3"></i>
+              <h5 class="card-title">Social Studies</h5>
+              <p class="card-text">Understanding our world, people, and cultures with fun lessons.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Creative Arts -->
+        <div class="col-md-4">
+          <div class="card text-center h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-brush-fill display-4 text-danger mb-3"></i>
+              <h5 class="card-title">Creative Arts</h5>
+              <p class="card-text">We let creativity bloom with drawing, music, and drama activities.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- ICT -->
+        <div class="col-md-4">
+          <div class="card text-center h-100 shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-laptop-fill display-4 text-dark mb-3"></i>
+              <h5 class="card-title">ICT</h5>
+              <p class="card-text">Early exposure to computers and digital tools for the future.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notices Section -->
+<section class="py-5" id="notices">
+    <div class="container text-center">
+      <h2 class="text-primary mb-4">School Notices</h2>
+      <p class="lead">Stay updated with the latest from Detlof!</p>
+      <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#noticesModal">
+        <i class="bi bi-megaphone-fill"></i> View Notices
+      </button>
+    </div>
+  </section>
+  
+  <!-- Notices Modal -->
+  <div class="modal fade" id="noticesModal" tabindex="-1" aria-labelledby="noticesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content shadow">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="noticesModalLabel"><i class="bi bi-megaphone-fill"></i> Latest Notices</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group-item">Admission for students from Pre-school to JHS 2 ends on 5th January 2026</li>
+            <li class="list-group-item">Beginning of first term for 2025/26 Academic year - 11th January 2026</li>
+            <li class="list-group-item">🎨 Creative Arts Fair this Friday</li>
+            <li class="list-group-item">📢 PTA Meeting – Next Monday, 9:00 AM</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Events Section -->
+<section class="py-5 bg-light" id="events">
+    <div class="container text-center">
+      <h2 class="text-primary mb-4">Upcoming Events</h2>
+      <p class="lead">Don’t miss out on the fun and learning!</p>
+      <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#eventsModal">
+        <i class="bi bi-calendar-event-fill"></i> View Events
+      </button>
+    </div>
+  </section>
+  
+  <!-- Events Modal -->
+  <div class="modal fade" id="eventsModal" tabindex="-1" aria-labelledby="eventsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content shadow">
+        <div class="modal-header bg-warning text-dark">
+          <h5 class="modal-title" id="eventsModalLabel"><i class="bi bi-calendar-event-fill"></i> School Events</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group">
+            <li class="list-group-item">Admission of New students -  Ends 5th January 2026</li>
+            <li class="list-group-item">Reopening date - 11th January</li>
+            <li class="list-group-item">👩‍🏫 Teachers Appreciation Day – August 2nd</li>
+            <li class="list-group-item">🎓 Graduation Ceremony – August 30th</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Gallery Section -->
+<section class="py-5" id="gallery">
+    <div class="container text-center">
+      <h2 class="text-primary mb-4">Gallery</h2>
+      <p class="lead">A glimpse into the colorful world of Detlof Prep School</p>
+  
+      <!-- Carousel -->
+      <div id="schoolCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded shadow">
+  
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img src="Cultural troupe 1.JPG" class="d-block w-100" alt="Classroom Activity">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Fun in the Classroom</h5>
+              <p>Interactive learning with our friendly teachers.</p>
+            </div>
+          </div>
+  
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img src="cadet.jpg" class="d-block w-100" alt="Sports Day">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Sports Day</h5>
+              <p>Active kids are happy kids!</p>
+            </div>
+          </div>
+  
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img src="choreography.jpg" class="d-block w-100" alt="Arts & Crafts">
+            <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+              <h5>Creative Time</h5>
+              <p>Painting, music, and expression all day long.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#schoolCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#schoolCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="highlights" class="py-5" style="background-color: #fffef8;">
+    <div class="container">
+      <h2 class="text-center mb-4 text-warning fw-bold">School Highlights</h2>
+      <div class="row g-4">
+        <!-- Highlight Card 1 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="Library student.jpg" class="card-img-top" alt="Highlight 1">
+            <div class="card-body">
+              <h5 class="card-title">📚📖💡LIBRARY STUDENT OF THE WEEK SPOTLIGHT💡📖📚</h5>
+              <p class="card-text">Name: Prince Adom Adams
+                Class: Basic 1...
+                </p>
+              <button class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#highlight1Modal">Read More</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Highlight Card 2 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="images/highlight2.jpg" class="card-img-top" alt="Highlight 2">
+            <div class="card-body">
+              <h5 class="card-title">Why Going To School Everyday Important - By Favour Maame Ama Tonnah Koranteng</h5>
+              <p class="card-text">Access to quality education is a fundamental right
+                that empowers individuals, communities and societies to ...</p>
+              <button class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#highlight2Modal">Read More</button>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Highlight Card 3 -->
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <img src="images/highlight3.jpg" class="card-img-top" alt="Highlight 3">
+            <div class="card-body">
+              <h5 class="card-title">How Can We Help Friends Who Struggle In Closs By Favour Maame Ama Tonnah Koranteng</h5>
+              <p class="card-text">As students navigate their academic journey, some may face challenges that impact their learning ...</p>
+              <button class="btn btn-sm btn-outline-warning" data-bs-toggle="modal" data-bs-target="#highlight3Modal">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Modal for Highlight 1 -->
+<div class="modal fade" id="highlight1Modal" tabindex="-1" aria-labelledby="highlight1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-warning text-white">
+        <h5 class="modal-title" id="highlight1Label">📚📖💡LIBRARY STUDENT OF THE WEEK SPOTLIGHT💡📖📚</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          <b>Name: Prince Adom Adams <br>
+            Class: Basic 1 <br> <br></b>
+          
+          What’s your favorite book and why? <br>
+          <i style="font-size: large; font-weight: bold;">"The work people do (Cluster books)” </i>is my favorite because it has helped me know more about professions and what their duties are. <br> <br>
+          
+          What’s one thing you’ve learned recently that excited you? <br> 
+          <span style="font-style: italic; font-weight: bold;">The meaning of “Neighbourhood” </span><br>
+          
+          What’s a fun fact about you most people don’t know?
+          I love to draw but my mates do know about that
+          <br><br>
+          What do you want to be when you grow up? <br>
+          <b>A lawyer and an artist</b> because I love to draw.
+          <br><br>
+          If you could recommend one book to your classmates, what would it be?<br>
+          <span style="font-style: italic; font-weight: bold;">The Rooster by Lawrence Darmani</span><br><br>
+          
+          The message I have for my friends is that: they should read more books so we can speak good english together!
+          Thank you!🥂
+          <br><br>
+          
+          <b>©📚DPS LIBRARY📚</b>
+          </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Highlight 2 -->
+<div class="modal fade" id="highlight2Modal" tabindex="-1" aria-labelledby="highlight2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-warning text-white">
+        <h5 class="modal-title" id="highlight2Label">Why Going To School Everyday Important - By Favour Maame Ama Tonnah Koranteng</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Access to quality education is a fundamental right
+          that empowers individuals, communities and societies to flourish. Regular attendance is an essential aspect of education, and going to school everyday helps in shaping a student's academic success, personal growth, and future opportunities. br There are numerous benefits for going to school everyday. <br> <br>
+          One key aspect is, <b>going to school everyday helps students to develop a strong foundation in core subjects by consistent exposure</b>. Core subjects like mathematics needs consistent exposure, so if students go to school regularly or everyday, they will be able to absorb and process information more effectively. And students can also develop a strong 
+          foundation in core subjects by building upon previous knowledge, everyday's lesson build upon the previous ones, helping students to connect new concepts to existing ones. So by going to school everyday, student can develop a strong foundation in core subjects, which is essential in their academics. <br><br>
+          Additionally, going to school everyday <b>helps
+            students to develop essential life skills. </b> School is not just about academics, its also a place where students learn essential life skills, so by attending school daily, students can develop these skills through interactions with peers and teachers.
+          So, attending school daily, students can develop essential life skills which are crucial for personal and academic growth.<br><br>
+          Ultimately, going to school regulary <b>can help students to build a discipline routine.</b> Attending school everyday helps students to establish a daily schedule, develop punctuality and build self-discipline. Attending school diat daily help students to create a routine, prioritizing tasks and managing time.<br><br>
+          In a nutshell, <b>attending school regularly helps students to develop a strong foundation for core subjects leading to a better academic performance, acquire essential Life skills, and build discipline routine promoting responsibility, punctuality and self-discipline</b> By prioritizing daily attendance, students can unlock their full potential, achieve arademic euces and Lay groundwork for a bright and sucessful future.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal for Highlight 3 -->
+<div class="modal fade" id="highlight3Modal" tabindex="-1" aria-labelledby="highlight3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+    <div class="modal-content">
+      <div class="modal-header bg-warning text-white">
+        <h5 class="modal-title" id="highlight3Label">How Can We Help Friends Who Struggle In Closs By Favour Maame Ama Tonnah Koranteng</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>As students navigate their academic journey, some may face challenges that impact their learning experience. Inclusive education emphasizes the importance of supporting all students, regardless of their abilities or difficulties. One essential aspect of this approach is how we, as peers, can help friends who struggle in class. <br><br>
+          Firstly, <b>to support a struggling friend, we have to first have understanding and empathy. We have to have active listening; which is we have to allow them to share their concerns and feelings without judgment</b>. We can do this by giving our full attention one putting away all forms of distractions, maintaining eye contacts, avoiding interupting by letting them speak without cutting in, and repeating what they said to ensure clarity. And as for the empathy, we have to acknowledge their frustrations and validate their emotions. By doing this, we have to see things from the friend' s point of view, recognise and acknowledge their emotions and Confirming that their feelings are normal and valid. <br> Doing these will help build trust, encourage openness, foster deeper connection and creates a safe space. <br><br>
+          Also, <b>we can put in place practical supports. We can do this by creating study groups; organising study sessions where Friends can collaborate, discuss challenging topics, and learn from one another</b>. And we can also do these practical supports by note-sharing; by providing guidance on note-taking 
+          stratagies or sharing their notes with them. Additionally, <b>we can put in place tutoring; if possible, we can offer to tutor or help our friends find tutors</b>. And we can also break down tasks into smaller steps. By offering practical support like study groups, note-sharing, tutoring, and breaking tasks into smaller steps, we can help friends overcome specific challenges and build confidence in their academic abilities. <br><br>
+          Ultimately, <b>we can help friends who struggle
+            by creating an inclusive environment. We can do this by promoting patience and understanding;</b> encouraging class mates to be patient and supportive. We can also help friends who struggle by relebrating extrerst adversity.By acknowledging and appreciating the unique strengths and contributions of all students. And we can help friends who struggle by advocating for accessible learning materials and resources.
+          In a nutshell, by providing emotional support, practical assistance, and promoting an indusive environment, we can help friends who struggle in class. By working together, we can create a more supportive and inclusive learning community where everyone has the opportunity to thrive</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Admissions Section -->
+<section class="py-5 bg-warning bg-opacity-25" id="admissions">
+    <div class="container text-center">
+      <h2 class="text-primary mb-4">Admissions Open!</h2>
+      <p class="lead mb-4">
+        Ready to join the Detlof Prep family? Enrollment is now open for the new academic year!
+        We welcome learners from Nursery to JHS with a heart for growth and curiosity.
+      </p>
+      <a href="#contact" class="btn btn-primary btn-lg">
+        <i class="bi bi-pencil-square"></i> Apply Now
+      </a>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+<section class="py-5 bg-light" id="contact">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="text-primary">Get In Touch</h2>
+        <p class="lead">We’d love to hear from you! Reach out with any questions or admissions inquiries.</p>
+      </div>
+  
+      <div class="row">
+        <!-- Contact Info -->
+        <div class="col-md-5 mb-4">
+          <div class="bg-white p-4 rounded shadow-sm h-100">
+            <h5><i class="bi bi-geo-alt-fill text-danger"></i> Address</h5>
+            <p>Elmina Golgotha</p>
+  
+            <h5><i class="bi bi-telephone-fill text-success"></i> Phone</h5>
+            <p>+233 24 421 9845</p>
+  
+            <h5><i class="bi bi-envelope-fill text-primary"></i> Email</h5>
+            <p>detlofprep@gmail.com</p>
+          </div>
+        </div>
+  
+        <!-- Contact Form -->
+        <div class="col-md-7">
+          <div class="bg-white p-4 rounded shadow-sm">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning w-100">
+                <i class="bi bi-send-fill"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+  document.querySelectorAll('a.nav-link').forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        window.scrollTo({
+          top: target.offsetTop - 70,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+
+  
+  </script>
+</body>
+</html>
